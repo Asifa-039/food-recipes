@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      .navbar-nav .nav-item {
+        margin-right: 40px;
+        /* gap:500px; */
+      }
+  
+
+      #main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .img1 {
+          width: 100%;
+          height: 700px;
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+          margin: 10px;
+          margin-top: 20px;
+        }
+        .img2 {
+          width: 100%;
+          height:600px;
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+          margin: 10px;
+          margin-top: 20px;
+        }
+      }
+      footer {
+      background-color: #2d2d2d;
+      color: #ffffff;
+      padding: 30px 15px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .footer-section {
+      flex: 1 1 300px;
+      margin: 10px;
+    }
+
+    .footer-section h3 {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+
+    .footer-section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-section ul li {
+      margin: 8px 0;
+    }
+
+    .footer-section ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      transition: color 0.3s;
+    }
+
+    .footer-section ul li a:hover {
+      color: #f39c12;
+    }
+
+    .social-links a {
+      margin-right: 10px;
+      font-size: 1.2rem;
+      color: #ffffff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .social-links a:hover {
+      color: #f39c12;
+    }
+
+    .newsletter input {
+      padding: 10px;
+      margin-right: 5px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .newsletter button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      background-color: #f39c12;
+      color: #ffffff;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .newsletter button:hover {
+      background-color: #e67e22;
+    }
+
+    footer p {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.9rem;
+    }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+          src="https://img.freepik.com/premium-vector/master-chef-logo-design-cartoon-illustration_256145-252.jpg"
+          alt="" width="70px" height="70px"</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div id="name" style="font-size: 50px;"><b>Food Receipes</b></div>
+          <ul class="navbar-nav">
+            <li class="nav-item m-2">
+              <a class="nav-link active" aria-current="page" href="#"></a>
+            </li>
+            <!-- <div id="box" style="gap:10px;"> -->
+            <li class="nav-item m-2">
+              <a class="nav-link" href="./index.html" style="font-size: 30px;"><b>Home</b></a>
+            </li>
+            <li class="nav-item m-2">
+              <a class="nav-link" href="./receipes.html" style="font-size: 30px;"><b>Menu</b></a>
+            </li>
+            <li class="nav-item m-2">
+              <a class="nav-link" href="./details.html" style="font-size: 30px;"><b>Developer</b></a>
+            </li>
+            <!-- </div> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="main">
+      <img
+        src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/fec9e372876473.5bf659e97f2cb.jpg"
+        alt=""
+        class="img1"
+      />
+      <!-- <img
+        src="https://cdn3.f-cdn.com//files/download/201010592/Screenshot%202023-07-08%20223550.png?width=780&height=365&fit=crop"
+        alt=""
+        class="img1"
+      /> -->
+      <img
+        src="https://www.wptasty.com/wp-content/uploads/2023/04/Pinch-of-Yum.png"
+        alt=""
+        class="img2"
+      />
+    </div>
+    <!-- <footer>
+      <div class="footer-section">
+        <h3>About Us</h3>
+        <p>Welcome to our food recipes website where you’ll find hundreds of delicious recipes to try at home. Cook with love!</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Recipes</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+          <a href="#">Pinterest</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Subscribe</h3>
+        <form class="newsletter">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </footer>
+    
+    <p>&copy; 2025 Food Recipes. All Rights Reserved.</p>
+     -->
+    
+    <footer style="background: linear-gradient(135deg, #2c3e50, #4ca1af); color: #fff; padding: 50px 0; text-align: center; font-family: Arial, sans-serif;">
+        <div style="max-width: 1100px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0 20px;">
+      
+          <!-- About Us Section -->
+          <div style="flex: 1; min-width: 250px; margin-bottom: 20px;">
+            <h3 style="color: #ffcc00; margin-bottom: 15px;">About Us</h3>
+            <p style="font-size: 14px; line-height: 1.6;">
+              Explore a world of flavors with our curated recipes. Cook with passion and share the joy!
+            </p>
+          </div>
+      
+          <!-- Quick Links -->
+          <div style="flex: 1; min-width: 250px; margin-bottom: 20px;">
+            <h3 style="color: #ffcc00; margin-bottom: 15px;">Quick Links</h3>
+            <ul style="list-style: none; padding: 0;">
+              <li><a href="#" style="color: #fff; text-decoration: none; font-size: 14px;">Home</a></li>
+              <li><a href="#" style="color: #fff; text-decoration: none; font-size: 14px;">Recipes</a></li>
+              <li><a href="#" style="color: #fff; text-decoration: none; font-size: 14px;">Blog</a></li>
+              <li><a href="#" style="color: #fff; text-decoration: none; font-size: 14px;">Contact</a></li>
+            </ul>
+          </div>
+      
+          <!-- Social Media -->
+          <div style="flex: 1; min-width: 250px; margin-bottom: 20px;">
+            <h3 style="color: #ffcc00; margin-bottom: 15px;">Follow Us</h3>
+            <div>
+              <a href="#" style="margin: 0 10px; font-size: 18px; color: #fff; text-decoration: none;">Facebook</a>
+              <a href="#" style="margin: 0 10px; font-size: 18px; color: #fff; text-decoration: none;">Instagram</a>
+              <a href="#" style="margin: 0 10px; font-size: 18px; color: #fff; text-decoration: none;">Twitter</a>
+              <a href="#" style="margin: 0 10px; font-size: 18px; color: #fff; text-decoration: none;">Pinterest</a>
+            </div>
+          </div>
+      
+          <!-- Newsletter -->
+          <div style="flex: 1; min-width: 250px; margin-bottom: 20px;">
+            <h3 style="color: #ffcc00; margin-bottom: 15px;">Subscribe</h3>
+            <form>
+              <input type="email" placeholder="Your email" required 
+                style="padding: 10px; width: 80%; border: none; border-radius: 5px; margin-bottom: 10px;">
+              <button type="submit" 
+                style="background: #ffcc00; color: #333; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; transition: 0.3s;">
+                Subscribe
+              </button>
+            </form>
+          </div>
+      
+        </div>
+        
+        <!-- Footer Bottom (Copyright) -->
+       
+      </footer>
+      
+      
+    </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>

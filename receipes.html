@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Items Grid</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body onload="displayCards()">
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">Food Items</h2>
+        <div id="food-container" class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Cards will be inserted dynamically -->
+        </div>
+    </div>
+
+    <script>
+        async function displayCards() {
+            try {
+                const response = await fetch('receipes.json');
+                const foodItems = await response.json();
+                const container = document.getElementById('food-container');
+                foodItems.forEach(food => {
+                    const foodCard = document.createElement('div');
+                    foodCard.className = 'col';
+                    foodCard.innerHTML = `
+                        <div class="card h-100 shadow-sm">
+                            <img src="${food.receipe_image}"style="height: 200px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">${food.receipe_name}</h5>
+                                <p class="card-text"><strong>Rating:</strong> ⭐ ${food.receipe_rating}</p>
+                                 <p class="card-text"><strong>Price:</strong>${food.receipe_price}</p>
+                                <p class="card-text"><strong>Ingredients:</strong> ${food.receipe_ingredients}</p>
+                                <a href="cards.html?id=${food.id}" class="btn btn-primary">More</a>
+                            </div>
+                        </div>
+                    `;
+                    container.appendChild(foodCard);
+                });
+            } catch (error) {
+                console.error('Error fetching food items:', error);
+                document.getElementById('food-container').innerHTML = `
+                    <p class="text-center text-danger">Failed to load food items. Please try again later.</p>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>

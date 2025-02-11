@@ -1,0 +1,454 @@
+[
+    {
+      "id":1,
+      "receipe_name": "Spaghetti Carbonara",
+      "receipe_image": "https://cdn.zeptonow.com/production///tr:w-600,ar-100-100,pr-true,f-auto,q-80/web/recipes/spaghetti-carbonara.png",
+      "receipe_rating": 4.8,
+      "receipe_price":175,
+      "receipe_ingredients": [
+        "200g spaghetti",
+        "100g pancetta",
+        "2 large eggs",
+        "50g parmesan cheese",
+        "2 cloves garlic",
+        "Salt and black pepper"
+      ]
+    },
+    {
+      "id":2,
+      "receipe_name": "Classic Margherita Pizza",
+      "receipe_image": "https://recipes.timesofindia.com/thumb/56868564.cms?width=1200&height=900",
+      "receipe_rating": 4.7,
+      "receipe_price":185,
+      "receipe_ingredients": [
+        "Pizza dough",
+        "Tomato sauce",
+        "200g mozzarella",
+        "Fresh basil leaves",
+        "Olive oil",
+        "Salt"
+      ]
+    },
+    {
+      "id":3,
+      "receipe_name": "Chocolate Brownies",
+      "receipe_image": "https://recipesblob.oetker.in/assets/9a89b75f976642dcab8ae407e2f4344e/750x910/chocolate-brownie.jpg",
+      "receipe_rating": 4.9,
+      "receipe_price":115,
+      "receipe_ingredients": [
+        "200g dark chocolate",
+        "175g butter",
+        "250g sugar",
+        "3 large eggs",
+        "75g plain flour",
+        "30g cocoa powder",
+        "Pinch of salt"
+      ]
+    },
+    {
+      "id":4,
+      "receipe_name": "Caesar Salad",
+      "receipe_image": "https://www.spendwithpennies.com/wp-content/uploads/2023/06/Grilled-Chicken-Caesar-Salad-SpendWithPennies-4.jpg",
+      "receipe_rating": 4.6,
+      "receipe_price":170,
+      "receipe_ingredients": [
+        "Romaine lettuce",
+        "50g parmesan cheese",
+        "Croutons",
+        "Caesar dressing",
+        "1 clove garlic",
+        "Salt and pepper"
+      ]
+    },
+    {
+      "id":5,
+      "receipe_name": "Chicken Biryani",
+      "receipe_image": "https://theyummydelights.com/wp-content/uploads/2018/09/Pressure-cooker-chicken-biryani.jpg",
+      "receipe_rating": 4.8,
+      "receipe_price":175,
+      "receipe_ingredients": [
+        "500g chicken",
+        "2 cups basmati rice",
+        "1 onion",
+        "1 tomato",
+        "Yogurt",
+        "Biryani spices"
+      ]
+    },
+    {
+      "id":6,
+      "receipe_name": "Vegetable Stir-Fry",
+      "receipe_image": "https://t4.ftcdn.net/jpg/02/55/72/09/360_F_255720974_LwbSsbWusIrwvB8LBaMZBmSkBjkdVkCg.jpg",
+      "receipe_rating": 4.5,
+      "receipe_price":120,
+      "receipe_ingredients": [
+        "Broccoli",
+        "Carrots",
+        "Bell peppers",
+        "Soy sauce",
+        "Ginger",
+        "Garlic"
+      ]
+    },
+    {
+      "id":7,
+      "receipe_name": "Butter Chicken",
+      "receipe_image": "https://static.vecteezy.com/system/resources/previews/015/933/397/non_2x/tasty-butter-chicken-curry-or-murg-makhanwala-or-masala-dish-from-indian-cuisine-free-photo.jpg",
+      "receipe_rating": 4.9,
+      "receipe_price":140,
+      "receipe_ingredients": [
+        "500g chicken",
+        "1 cup tomato puree",
+        "Cream",
+        "Butter",
+        "Garam masala",
+        "Garlic and ginger"
+      ]
+    },
+    {
+      "id":8,
+      "receipe_name": "Pancakes",
+      "receipe_image": "https://eggs.ca/wp-content/uploads/2024/06/fluffy-pancakes-1664x832-1.jpg",
+      "receipe_rating": 4.7,
+      "receipe_price":120,
+      "receipe_ingredients": [
+        "Flour",
+        "Milk",
+        "Eggs",
+        "Baking powder",
+        "Sugar",
+        "Butter"
+      ]
+    },
+    {
+      "id":9,
+      "receipe_name": "Tandoori Chicken",
+      "receipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0n5RWJhkc9MvmhO9eWn-Uht_0K8xYcajquA&s",
+      "receipe_rating": 4.8,
+      "receipe_price":130,
+      "receipe_ingredients": [
+        "Chicken legs",
+        "Yogurt",
+        "Tandoori masala",
+        "Lemon juice",
+        "Garlic and ginger",
+        "Salt"
+      ]
+    },
+    {
+      "id":10,
+      "receipe_name": "Tomato Soup",
+      "receipe_image": "https://www.shutterstock.com/image-photo/delicious-looking-tomato-soup-turkish-260nw-2332761547.jpg",
+      "receipe_rating": 4.6,
+      "receipe_price":50,
+      "receipe_ingredients": [
+        "Tomatoes",
+        "Garlic",
+        "Onion",
+        "Cream",
+        "Salt",
+        "Black pepper"
+      ]
+    },
+    {
+      "id":11,
+      "receipe_name": "French Toast",
+      "receipe_image": "https://cookingwithcocktailrings.com/wp-content/uploads/2021/02/ALDIeasterbrunchfrenchtoastwithwhippedcreamandberries-42-500x375.jpg",
+      "receipe_rating": 4.7,
+      "receipe_price":210,
+      "receipe_ingredients": [
+        "Bread slices",
+        "Eggs",
+        "Milk",
+        "Cinnamon",
+        "Sugar",
+        "Butter"
+      ]
+    },
+    {
+      "id":12,
+      "receipe_name": "Beef Tacos",
+      "receipe_image": "https://media.istockphoto.com/id/1333647378/photo/homemade-american-soft-shell-beef-tacos.jpg?s=612x612&w=0&k=20&c=ZHhpFNbH_BO4MaXzmcKLjC4cPRptdXlp6IVUfs1sBEs=",
+      "receipe_rating": 4.8,
+      "receipe_price":200,
+      "receipe_ingredients": [
+        "Ground beef",
+        "Taco shells",
+        "Lettuce",
+        "Tomatoes",
+        "Cheese",
+        "Taco seasoning"
+      ]
+    },
+    {
+      "id":13,
+      "receipe_name": "Lemon Cake",
+      "receipe_image": "https://dyvn6jpt1f0d3.cloudfront.net/wp-content/uploads/2021/10/05113133/LemonCakeWithWhippedCreamFrosting-180_1920.jpg",
+      "receipe_rating": 4.9,
+      "receipe_price":150,
+      "receipe_ingredients": [
+        "Flour",
+        "Sugar",
+        "Eggs",
+        "Lemon zest",
+        "Butter",
+        "Baking powder"
+      ]
+    },
+    {
+      "id":14,
+      "receipe_name": "Shrimp Scampi",
+      "receipe_image": "https://thecozycook.com/wp-content/uploads/2023/09/Minestrone-Soup-f.jpg",
+      "receipe_rating": 4.8,
+      "receipe_price":160,
+      "receipe_ingredients": [
+        "Shrimp",
+        "Butter",
+        "Garlic",
+        "White wine",
+        "Lemon juice",
+        "Parsley"
+      ]
+    },
+    {
+      "id":15,
+      "receipe_name": "Grilled Cheese Sandwich",
+      "receipe_image": "https://t3.ftcdn.net/jpg/01/44/82/76/360_F_144827608_N2H8K1ctLiTG9JRh4fJT0uPxi8UKip2w.jpg",
+      "receipe_rating": 4.5,
+      "receipe_price":125,
+      "receipe_ingredients": [
+        "Bread",
+        "Cheese slices",
+        "Butter",
+        "Garlic powder"
+      ]
+    },
+    {
+      "id":16,
+      "receipe_name": "Minestrone Soup",
+      "receipe_image": "https://media.istockphoto.com/id/467947693/photo/minestrone-soup-with-pasta-beans-and-vegetables.jpg?s=612x612&w=0&k=20&c=5nMIhOPpRYXNZT2h8cHkOQEdHiwSwYDZ4t9TTgaA_sI=",
+      "receipe_rating": 4.6,
+      "receipe_price":120,
+      "receipe_ingredients": [
+        "Vegetables",
+        "Tomato sauce",
+        "Pasta",
+        "Beans",
+        "Garlic",
+        "Basil"
+      ]
+    },
+    {
+      "id":17,
+      "receipe_name": "Gulab Jamun",
+      "receipe_image": "https://t3.ftcdn.net/jpg/08/42/48/86/360_F_842488691_jNknbqQn2GSMXFggvtyX3UaVORtBRFSc.jpg",
+      "receipe_rating": 4.8,
+      "receipe_price":100,
+      "receipe_ingredients": [
+        "Milk powder",
+        "Flour",
+        "Sugar",
+        "Cardamom",
+        "Rose water",
+        "Ghee"
+      ]
+    },
+    {
+      "id":18,
+      "receipe_name": "Raspberry Cheesecake",
+      "receipe_image": "https://media.istockphoto.com/id/955973020/photo/fresh-berry-cheesecake-food-photography-recipe-idea.jpg?s=612x612&w=0&k=20&c=nBBXrNFtrfyxyNN8utx9UCuA6BJymsVIp5cKt748P9k=",
+      "receipe_rating": 4.9,
+      "receipe_price":230,
+      "receipe_ingredients": [
+        "Cream cheese",
+        "Sugar",
+        "Raspberries",
+        "Graham crackers",
+        "Butter",
+        "Whipping cream"
+      ]
+    },
+    {
+      "id":19,
+      "receipe_name": "Chole Bhature",
+      "receipe_image": "https://www.shutterstock.com/image-photo/chole-bhature-served-on-plate-600nw-2502135037.jpg",
+      "receipe_rating": 4.7,
+      "receipe_price":190,
+      "receipe_ingredients": [
+        "Chickpeas",
+        "Onion",
+        "Tomato",
+        "Bhature dough",
+        "Spices",
+        "Coriander"
+      ]
+    },
+    {
+      "id":20,
+      "receipe_name": "Egg Fried Rice",
+      "receipe_image": "https://media.gettyimages.com/id/172789635/photo/asian-chinese-fried-rice-with-vegetable-and-egg-with-chopsticks.jpg?s=612x612&w=gi&k=20&c=j03NDqEqCwrHj7thIbPhsOil8JC4KQ82AJ0G8bDUsMI=",
+      "receipe_rating": 4.8,
+      "receipe_price":170,
+      "receipe_ingredients": [
+        "Rice",
+        "Eggs",
+        "Soy sauce",
+        "Vegetables",
+        "Garlic",
+        "Green onions"
+      ]
+    },
+    {
+      "id":21,
+      "receipe_name": "Fish Tikka",
+      "receipe_image": "https://t3.ftcdn.net/jpg/04/97/55/44/360_F_497554481_D7B5Kfv5rqyC3SHT1NPMwWmyzQrBIsTS.jpg",
+      "receipe_rating": 4.8,
+      "receipe_price":110,
+      "receipe_ingredients": [
+        "Fish fillets",
+        "Tikka masala",
+        "Yogurt",
+        "Lemon juice",
+        "Garlic",
+        "Oil"
+      ]
+    },
+    {
+      "id":22,
+      "receipe_name": "Veggie Burger",
+      "receipe_image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHZlZyUyMGJ1cmdlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "receipe_rating": 4.7,
+      "receipe_price":140,
+      "receipe_ingredients": [
+        "Burger buns",
+        "Vegetable patty",
+        "Lettuce",
+        "Tomato",
+        "Cheese",
+        "Mayonnaise"
+      ]
+    },
+    {
+      "id":23,
+      "receipe_name": "Pasta Alfredo",
+      "receipe_image": "https://media.istockphoto.com/id/506916161/photo/homemade-fettucini-aflredo-pasta.jpg?s=612x612&w=0&k=20&c=Pa3dwlsqnPfOKgldMXuHVy5Aqmtbp8wThbj6V_4u5us=",
+      "receipe_rating": 4.9,
+      "receipe_price":100,
+      "receipe_ingredients": [
+        "Pasta",
+        "Cream",
+        "Parmesan cheese",
+        "Butter",
+        "Garlic",
+        "Parsley"
+      ]
+    },
+    {
+      "id":24,
+      "receipe_name": "Chicken Tikka Masala",
+      "receipe_image": "https://www.shutterstock.com/image-photo/chicken-tikka-masala-served-bowl-600nw-2502136341.jpg",
+      "receipe_rating": 4.9,
+      "receipe_price":250,
+      "receipe_ingredients": [
+        "Chicken",
+        "Tikka masala spices",
+        "Tomato puree",
+        "Cream",
+        "Garlic",
+        "Ginger"
+      ]
+    },
+    {
+      "id":25,
+      "receipe_name": "Mango Lassi",
+      "receipe_image": "https://media.istockphoto.com/id/1365859011/photo/drink-mango-lassi-in-two-glasses-on-rustic-concrete-table-with-fresh-ripe-cut-manfo-from-above.jpg?s=612x612&w=0&k=20&c=uHnr_0raQDe2sgUYHdP5GSa2raaj3ILG4m1cmFHtVJA=",
+      "receipe_rating": 4.8,
+      "receipe_price":220,
+      "receipe_ingredients": [
+        "Mango",
+        "Yogurt",
+        "Milk",
+        "Sugar",
+        "Cardamom"
+      ]
+    },
+    {
+      "id":26,
+      "receipe_name": "Tofu Stir Fry",
+      "receipe_image": "https://media.istockphoto.com/id/523445425/photo/homemade-tofu-stir-fry.jpg?s=612x612&w=0&k=20&c=wt9ie_VlwAIHl5Cp7oeggDcBI4HOn7yfqGSWVFTDNss=",
+      "receipe_rating": 4.5,
+      "receipe_price":110,
+      "receipe_ingredients": [
+        "200g firm tofu",
+        "1 bell pepper, sliced",
+        "1 zucchini, sliced",
+        "1 carrot, sliced",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 tbsp rice vinegar",
+        "2 cloves garlic, minced",
+        "1 tbsp ginger, grated"
+      ]
+    },
+    {
+      "id":27,
+      "receipe_name": "Apple Pie",
+      "receipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShGvV_1zfnQCiMnjXk7by4zrlZKJQw1yvBIg&s",
+      "receipe_rating": 4.8,
+      "receipe_price":180,
+      "receipe_ingredients": [
+        "4 large apples, peeled and sliced",
+        "200g sugar",
+        "1 tsp ground cinnamon",
+        "1 tbsp lemon juice",
+        "2 tbsp flour",
+        "1 package pie crusts",
+        "1 tbsp butter"
+      ]
+    },
+    {
+      "id":28,
+      "receipe_name": "Banana Smoothie",
+      "receipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuMWjRVIPJxLZariMLB0RyBXIT8d0LwP7UKw&s",
+      "receipe_rating": 4.7,
+      "receipe_price":200,
+      "receipe_ingredients": [
+        "1 ripe banana",
+        "1 cup milk",
+        "1/2 cup Greek yogurt",
+        "1 tbsp honey",
+        "Ice cubes",
+        "1/4 tsp vanilla extract"
+      ]
+    },
+    {
+      "id":29,
+      "receipe_name": "Strawberry Milkshake",
+      "receipe_image": "https://www.faithfullyglutenfree.com/wp-content/uploads/2019/10/Chocolate-Covered-Strawberry-Cheesecake-Milkshake-1706.jpg",
+      "receipe_rating": 4.8,
+      "receipe_price":150,
+      "receipe_ingredients": [
+        "1 cup fresh strawberries",
+        "1 cup vanilla ice cream",
+        "1/2 cup milk",
+        "1 tbsp sugar",
+        "Whipped cream (optional)",
+        "Strawberry slices (optional)"
+      ]
+    },
+    {
+      "id":30,
+      "receipe_name": "Chocolate Peanut Butter Shake",
+      "receipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaZ0vVMDTmKapO5mPCskDHV3va2q-iJfUieg&s",
+      "receipe_rating": 4.9,
+      "receipe_price":170,
+      "receipe_ingredients": [
+        "1 cup milk",
+        "2 tbsp peanut butter",
+        "2 tbsp cocoa powder",
+        "1 cup vanilla ice cream",
+        "1 tbsp honey",
+        "Ice cubes"
+      ]
+    }
+  ]
